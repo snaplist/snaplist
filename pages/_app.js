@@ -60,7 +60,7 @@ function MyApp({ Component, pageProps }) {
       <ThemeProvider theme={themeConfig}>
         <CssBaseline />
         <Component {...pageProps} changeTheme={changeTheme} />
-        <SnackbarController />
+        {/* <SnackbarController /> */}
       </ThemeProvider>
       <ReactQueryDevtools initialIsOpen={false} />
     </QueryClientProvider>

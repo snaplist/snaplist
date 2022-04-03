@@ -3,7 +3,7 @@ import { Typography, Paper, Button, Tooltip, withStyles } from '@material-ui/cor
 import classes from './snaps.module.css';
 import stores, { useAccount, useChain } from '../../stores/index.js';
 import { ACCOUNT_CONFIGURED } from '../../stores/constants/constants';
-import Image from 'next/image';
+import ExportedImage from "next-image-export-optimizer";
 import { addSnaps, renderProviderText } from '../../utils/utils';
 
 const ExpandButton = withStyles((theme) => ({
@@ -60,8 +60,9 @@ export default function Snap({ snap }) {
     <>
       <Paper elevation={1} className={classes.chainContainer} key={snap.chainId}>
         <div className={classes.chainNameContainer}>
-          <Image
+          <ExportedImage
             src={icon}
+            alt={`logo`}
             onError={(e) => {
               e.target.onerror = null;
               e.target.src = '/chains/unknown-logo.png';
