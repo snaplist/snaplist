@@ -15,7 +15,7 @@ export async function getStaticProps({ params }) {
 
   const sortedSnaps = snaps
     .sort((a, b) => {
-      return (b.name ?? '').localeCompare(a.name ?? 0);
+      return (a.title ?? '').localeCompare(b.title ?? '');
     });
 
   return {
