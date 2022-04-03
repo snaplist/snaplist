@@ -1,0 +1,11 @@
+[
+    {
+        "title": "Filsnap",
+        "creator": "ChainSafe",
+        "installation": "npm:@chainsafe/filsnap",
+        "iconUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/filecoin/info/logo.png",
+        "version": "latest",
+        "website": "https://github.com/ChainSafe/filsnap",
+        "describution": "Metamask snap to interact with Filecoin dapps."
+    }
+]
