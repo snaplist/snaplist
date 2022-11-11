@@ -16,5 +16,14 @@
         "version": "latest",
         "website": "https://github.com/piotr-roslaniec/ethdenver-2022",
         "describution": "Access Aleo network from your browser using MetaMask."
+    },
+    {
+        "title": "Algorand",
+        "creator": "Kyraview",
+        "installation": "npm:algorand",
+        "iconUrl": "https://snapalgo-imgs.netlify.app/imgs/logo.svg",
+        "version": "latest",
+        "website": "https://snapalgo.com",
+        "describution": "a fully functional algorand wallet built on Metamask"
     }
 ]
