@@ -25,5 +25,14 @@
         "version": "latest",
         "website": "https://snapalgo.com",
         "describution": "a fully functional algorand wallet built on Metamask"
+    },
+    {
+        "title": "SSI Snap",
+        "creator": "Blockchain Lab:UM",
+        "installation": "npm:@blockchain-lab-um/ssi-snap",
+        "iconUrl": "https://blockchain-lab-um.github.io/ssi-snap-docs/img/ssi_snap_logo_2.svg",
+        "version": "latest",
+        "website": "https://blockchain-lab-um.github.io/ssi-snap-docs/",
+        "describution": "Enhance your MetaMask wallet with SSI capabilities."
     }
 ]
